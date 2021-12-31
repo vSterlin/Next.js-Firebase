@@ -26,6 +26,7 @@ class AuthService {
     }
   }
 
+
   public static async signIn(credentials: Credentials) {
     try {
       const userCredential = await signInWithEmailAndPassword(
@@ -38,6 +39,11 @@ class AuthService {
     } catch (err) {
       this.handleError(err);
     }
+  }
+
+  // server side only function
+  public static async isAuthenticated(){
+
   }
 
   private static handleError(err: unknown) {

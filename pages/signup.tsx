@@ -32,7 +32,7 @@ const SignUp: NextPage = () => {
 
         <button type="submit">Sign Up</button>
       </form>
-      <Link href="signin">Already signed up? Click to sign in</Link>
+      <Link href="/signin">Already signed up? Click to sign in</Link>
     </div>
   );
 };

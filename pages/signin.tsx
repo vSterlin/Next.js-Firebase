@@ -33,7 +33,7 @@ const SignIn: NextPage = () => {
 
         <button type="submit">Sign In</button>
       </form>
-      <Link href="signup">New here? Click to sign up</Link>
+      <Link href="/signup">New here? Click to sign up</Link>
     </div>
   );
 
